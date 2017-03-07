@@ -9,7 +9,7 @@ Conectandome a APIs por medio de AJAX y GetJSON, trabajando con librerías de te
 
 Tambien se utilizo es2015 gracias a Babel. Se decidio separar las Api's en componentes para una mejor usabilidad. Gracias a Page.js fue mas facil organizar el codigo y los componentes en modulos.
 
-Instalación
+# Instalación
 
 Para instalar las dependencias de este proyecto, generar los bundles dentro del directorio public/ y levantar el server para servir esta carpeta, correr los comandos:
 
