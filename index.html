@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Picker up News</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto|Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  <div id="app-container">
+    <header id="app-header">
+      <h1 class="title">Picker up News</h1>  
+      <h3>· News from the worldwide sources ·</h3> 
+       <div class="weather-api"></div>
+
+       <span class="icon-git">           
+           <a href="https://github.com/miuel/pickupnews" target="_blank">
+            <img src="img/github.svg" alt="logo github">
+           </a>
+       </span>
+       
+       <span class="burguer-button icon-menu" id="burguer-button">
+       </span>
+       
+           <ul class="menu-ul" id="menu">
+               <li class="menu-list"><a href="#nyt">The New York Times</a></li>
+               <li class="menu-list"><a href="#reuters">Reuters</a></li>
+               <li class="menu-list"><a href="#foxsports">Fox Sports</a></li>
+               <li class="menu-list"><a href="#time">Time</a></li>
+               <li class="menu-list"><a href="#unplash">Unplash</a></li>
+               <li class="menu-list"><a href="#engadget">Engadget</a></li>
+               <li class="menu-list"><a href="#football">Football Italia</a></li>
+           </ul>     
+       
+           <div class="menu-ul-responsive" id="menu-responsive">
+               <div class="menu-list-responsive"><a href="#nyt">The New York Times</a></div>
+               <div class="menu-list-responsive"><a href="#reuters">Reuters</a></div>
+               <div class="menu-list-responsive"><a href="#foxsports">Fox Sports</a></div>
+               <div class="menu-list-responsive"><a href="#time">Time</a></div>
+               <div class="menu-list-responsive"><a href="#unplash">Unplash</a></div>
+               <div class="menu-list-responsive"><a href="#engadget">Engadget</a></div>
+               <div class="menu-list-responsive"><a href="#football">Football Italia</a></div>
+           </div>     
+
+    </header>
+        
+    <section id="app-body" class="container">
+        
+        <div class="news-container">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+    
+            <div class="news-container-nyt" >
+                <h4 id="nyt">The New York Times News</h4>
+            </div>
+    
+            <div class="news-container-reuters" >
+                <h4 id="reuters">Reuters News</h4>
+            </div>
+
+            <div class="news-container-left">
+                <div class="news-container-fox">
+                    <h4 id="foxsports">Fox Sports News</h4>
+                </div>            
+                <div class="news-container-time">
+                    <h4 id="time">Time News</h4>
+                </div>
+            </div>           
+
+        </div> <!--fin container-->
+        
+        <hr class="borderDoble">   
+             
+        <div class="unplash-container">
+                <h4 id="unplash" class="titleH4">Unplash Photos Daily</h4>
+        </div>
+            
+
+        <hr class="borderDoble">        
+
+        <div class="recomendosYtrending">
+            
+            <div id="recomendados-container" class="recomendados-container" >
+                <h4 id="engadget" class="titleH4">Engadget Tech News</h4>
+            </div>
+            <div id="trending-container" class="trending-container">
+                <h4 id="football" class="titleH4right">Football Italia News</h4>
+            </div>
+        </div>
+        
+    </section>
+    <!--<footer id="app-footer">
+        <ul>
+            <li>
+                <a href="">github</a>
+            </li>
+            <li>
+                <span>powered by <a href="https://newsapi.org/" target="_blank">NewsAPI.org</a></span>
+            </li>
+        </ul>
+        
+        
+    </footer>-->
+  </div>
+
+  <!-- buscando codigo de hammer.js para los gestos -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
